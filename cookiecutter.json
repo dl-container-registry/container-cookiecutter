@@ -3,6 +3,7 @@
   "github_username": "Your github username",
   "dockerhub_username": "{{ cookiecutter.github_username }}",
   "author_name": "{{ cookiecutter.github_username }}",
+  "email_address": "Your email address (e.g. john.doe@gmail.com)",
   "description": "A short description of the project",
   "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
   "image_name": "{{ cookiecutter.repo_name }}",
