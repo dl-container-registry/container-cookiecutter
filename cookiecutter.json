@@ -1,0 +1,12 @@
+{
+  "project_name": "project_name",
+  "github_username": "Your github username",
+  "dockerhub_username": "{{ cookiecutter.github_username }}",
+  "author_name": "{{ cookiecutter.github_username }}",
+  "description": "A short description of the project",
+  "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "image_name": "{{ cookiecutter.repo_name }}",
+  "singularityhub_id": "SH_ID",
+  "license": ["MIT", "BSD", "GPL", "Apache", "Eclipse"]
+}
+
